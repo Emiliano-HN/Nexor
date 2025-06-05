@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Logo Nexor.png" type="Nexor">
+    <title>Nexor - Lenguaje de Programación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a0033, #2d0066, #4a0d99);
+            color: white;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 60px 0;
+            position: relative;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 50% 50%, rgba(138, 43, 226, 0.3), transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 0.6; }
+        }
+
+        .logo {
+            font-size: 4rem;
+            font-weight: bold;
+            background: linear-gradient(45deg, #9945ff, #e066ff, #ff6bb3);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            text-shadow: 0 0 30px rgba(153, 69, 255, 0.5);
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes glow {
+            from { filter: drop-shadow(0 0 20px rgba(153, 69, 255, 0.5)); }
+            to { filter: drop-shadow(0 0 30px rgba(153, 69, 255, 0.8)); }
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+            color: #e066ff;
+        }
+
+        .code-container {
+            background: rgba(0, 0, 0, 0.4);
+            border: 2px solid #9945ff;
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+            position: relative;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(153, 69, 255, 0.3);
+        }
+
+        .code-header {
+            background: linear-gradient(90deg, #9945ff, #e066ff);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            display: inline-block;
+        }
+
+        .code {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            color: #ff6bb3;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 60px 0;
+        }
+
+        .feature-card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(153, 69, 255, 0.3);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(153, 69, 255, 0.4);
+            border-color: #9945ff;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: #e066ff;
+        }
+
+        .feature-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #9945ff;
+        }
+
+        .feature-description {
+            color: #d1c4e9;
+            line-height: 1.6;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 0;
+            border-top: 1px solid rgba(153, 69, 255, 0.3);
+            margin-top: 60px;
+        }
+
+        .floating-particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: #9945ff;
+            border-radius: 50%;
+            animation: float 6s infinite linear;
+            opacity: 0.7;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(100vh) rotate(0deg);
+                opacity: 0;
+            }
+            10% {
+                opacity: 0.7;
+            }
+            90% {
+                opacity: 0.7;
+            }
+            100% {
+                transform: translateY(-100px) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .section-title {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #9945ff, #e066ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .download-section {
+            margin: 60px 0;
+            text-align: center;
+        }
+
+        .download-description {
+            font-size: 1.1rem;
+            color: #d1c4e9;
+            margin-bottom: 40px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .version-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+
+        .version-card {
+            background: rgba(255, 255, 255, 0.1);
+            border: 2px solid rgba(153, 69, 255, 0.3);
+            border-radius: 15px;
+            padding: 30px;
+            position: relative;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .version-card.latest {
+            border-color: #9945ff;
+            background: rgba(153, 69, 255, 0.15);
+            transform: scale(1.05);
+        }
+
+        .version-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(153, 69, 255, 0.4);
+        }
+
+        .version-card.latest:hover {
+            transform: scale(1.05) translateY(-10px);
+        }
+
+        .version-badge {
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            background: linear-gradient(45deg, #ff6bb3, #e066ff);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        .version-name {
+            font-size: 1.5rem;
+            color: #9945ff;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .version-date {
+            color: #e066ff;
+            margin-bottom: 20px;
+            font-size: 1rem;
+        }
+
+        .version-features {
+            color: #d1c4e9;
+            text-align: left;
+            margin-bottom: 25px;
+            line-height: 1.8;
+        }
+
+        .download-btn {
+            background: linear-gradient(45deg, #9945ff, #e066ff);
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(153, 69, 255, 0.4);
+            width: 100%;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(153, 69, 255, 0.6);
+        }
+
+        .latest-btn {
+            background: linear-gradient(45deg, #ff6bb3, #e066ff, #9945ff);
+            box-shadow: 0 6px 20px rgba(255, 107, 179, 0.5);
+        }
+
+        .latest-btn:hover {
+            box-shadow: 0 10px 30px rgba(255, 107, 179, 0.7);
+        }
+
+        @media (max-width: 768px) {
+            .logo {
+                font-size: 2.5rem;
+            }
+            .subtitle {
+                font-size: 1.2rem;
+            }
+            .features {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="floating-particles"></div>
+    
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">NEXOR</h1>
+            <p class="subtitle">El Lenguaje de Programación del Futuro</p>
+        </header>
+
+        <div class="download-section">
+            <h2 class="section-title">Descargar Nexor</h2>
+            <p class="download-description">
+                Obtén la última versión de Nexor y comienza a programar el futuro. Todas las versiones incluyen 
+                el compilador, bibliotecas estándar y documentación completa.
+            </p>
+            
+            <div class="version-cards">
+                <div class="version-card latest">
+                    <div class="version-badge">🌟 MÁS ACTUAL</div>
+                    <h3 class="version-name">Nexor v1.9.2</h3>
+                    <p class="version-date">Junio 2025</p>
+                    <div class="version-features">
+                        • Errores arreglados de la 1.1.0<br>
+                        • Agregacion minima de la AI<br>
+                        • Soporte para windows y macOS
+                    </div>
+                    <button class="download-btn latest-btn" onclick="window.location.href='Nexor v1.9.2.zip'">Descargar v1.9.2</button>
+                </div>
+
+                <div class="version-card">
+                    <h3 class="version-name">Nexor v1.1.0</h3>
+                    <p class="version-date">Enero 2025</p>
+                    <div class="version-features">
+                        • Version no completa<br>
+                        • Soporte solo para Windows<br>
+                        • Biblioteca basicas incluidas
+                    </div>
+                    <button class="download-btn latest-btn" onclick="window.location.href='Nexor v1.1.0.zip'">Descargar v1.1.0</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="features">
+            <div class="feature-card">
+                <div class="feature-icon">🚀</div>
+                <h3 class="feature-title">Sintaxis Simplificada</h3>
+                <p class="feature-description">Nexor utiliza una sintaxis limpia y elegante que hace que programar sea intuitivo y eficiente.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3 class="feature-title">Alto Rendimiento</h3>
+                <p class="feature-description">Optimizado para velocidad máxima con compilación avanzada y gestión inteligente de memoria.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🎨</div>
+                <h3 class="feature-title">Expresivo y Elegante</h3>
+                <p class="feature-description">Escribe código hermoso y legible con las características modernas de Nexor.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔧</div>
+                <h3 class="feature-title">Multiplataforma</h3>
+                <p class="feature-description">Ejecuta tus programas en cualquier sistema operativo sin modificaciones.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🧠</div>
+                <h3 class="feature-title">IA Integrada</h3>
+                <p class="feature-description">Nexor incluye capacidades de inteligencia artificial nativas para el desarrollo moderno.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌐</div>
+                <h3 class="feature-title">Comunidad Activa</h3>
+                <p class="feature-description">Únete a miles de desarrolladores que ya están construyendo el futuro con Nexor.</p>
+            </div>
+        </section>
+
+        <div style="text-align: center; margin: 40px 0;">
+            <h3 style="color: #e066ff; margin-bottom: 20px;">💜 Mi Primer Programa en Nexor</h3>
+            <p style="color: #d1c4e9; margin-bottom: 20px;">
+                Así de simple es escribir tu primer programa en Nexor.
+                        <div class="code-container">
+            <div class="code">Vek "Hola, mundo"</div>
+                        </div> 
+                Con una sola línea puedes mostrar mensajes al mundo.
+            </p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Lenguaje Nexor - Programando el Futuro 💜</p>
+    </footer>
+
+    <script>
+        // Crear partículas flotantes
+        function createParticles() {
+            const particlesContainer = document.querySelector('.floating-particles');
+            
+            for (let i = 0; i < 50; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 6 + 's';
+                particle.style.animationDuration = (Math.random() * 3 + 4) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Animar descargas
+        document.querySelectorAll('.download-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const version = this.textContent;
+                this.textContent = '⬇️ Descargando...';
+                this.style.background = 'linear-gradient(45deg, #00ff88, #00cc66)';
+                
+                setTimeout(() => {
+                    this.textContent = '✅ ¡Descargado!';
+                }, 2000);
+                
+                setTimeout(() => {
+                    this.textContent = version;
+                    this.style.background = this.classList.contains('latest-btn') 
+                        ? 'linear-gradient(45deg, #ff6bb3, #e066ff, #9945ff)'
+                        : 'linear-gradient(45deg, #9945ff, #e066ff)';
+                }, 4000);
+            });
+        });
+
+        // Efecto de hover en las tarjetas
+        document.querySelectorAll('.feature-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.background = 'rgba(153, 69, 255, 0.2)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.background = 'rgba(255, 255, 255, 0.1)';
+            });
+        });
+
+        // Inicializar partículas cuando carga la página
+        window.addEventListener('load', createParticles);
+
+        // Efecto de scroll suave
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const parallax = document.querySelector('.header');
+            const speed = scrolled * 0.5;
+            parallax.style.transform = `translateY(${speed}px)`;
+        });
+    </script>
+</body>
+</html>
