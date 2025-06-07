@@ -327,8 +327,8 @@
         <div class="download-section">
             <h2 class="section-title">Descargar Nexor</h2>
             <p class="download-description">
-                Obtén la última versión de Nexor y comienza a programar el futuro. Todas las versiones incluyen 
-                el compilador, bibliotecas estándar y documentación completa.
+                Obtén la última versión de Nexor y comienza a programar. Todas las versiones incluyen 
+                el interprete, bibliotecas estándar y intrucciones para instalar.
             </p>
             
             <div class="version-cards">
@@ -367,7 +367,7 @@
             <div class="feature-card">
                 <div class="feature-icon">⚡</div>
                 <h3 class="feature-title">Alto Rendimiento</h3>
-                <p class="feature-description">Optimizado para velocidad máxima con compilación avanzada y gestión inteligente de memoria.</p>
+                <p class="feature-description">Optimizado para velocidad máxima con interprete avanzado y gestión inteligente de memoria.</p>
             </div>
 
             <div class="feature-card">
@@ -384,8 +384,8 @@
 
             <div class="feature-card">
                 <div class="feature-icon">🧠</div>
-                <h3 class="feature-title">IA Integrada</h3>
-                <p class="feature-description">Nexor incluye capacidades de inteligencia artificial nativas para el desarrollo moderno.</p>
+                <h3 class="feature-title">IA en Desarrollo</h3>
+                <p class="feature-description">Nexor esta desarrollando una AI de imagenes y texto y la calidad de respuestar depende de tu computadora.</p>
             </div>
 
             <div class="feature-card">
@@ -412,7 +412,6 @@
     </footer>
 
     <script>
-        // Crear partículas flotantes
         function createParticles() {
             const particlesContainer = document.querySelector('.floating-particles');
             
@@ -426,7 +425,6 @@
             }
         }
 
-        // Animar descargas
         document.querySelectorAll('.download-btn').forEach(btn => {
             btn.addEventListener('click', function() {
                 const version = this.textContent;
@@ -446,7 +444,6 @@
             });
         });
 
-        // Efecto de hover en las tarjetas
         document.querySelectorAll('.feature-card').forEach(card => {
             card.addEventListener('mouseenter', function() {
                 this.style.background = 'rgba(153, 69, 255, 0.2)';
@@ -457,10 +454,8 @@
             });
         });
 
-        // Inicializar partículas cuando carga la página
         window.addEventListener('load', createParticles);
 
-        // Efecto de scroll suave
         window.addEventListener('scroll', () => {
             const scrolled = window.pageYOffset;
             const parallax = document.querySelector('.header');
