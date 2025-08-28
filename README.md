@@ -1,4 +1,4 @@
-<h1 align="center">🌟 Nexor 🌟</h1>
+<h1 align="center">🟣 Nexor 🟣</h1>
 <p align="center">La próxima generación de datos</p>
 
 <a href="https://emiliano-hn.github.io/Nexor/">
