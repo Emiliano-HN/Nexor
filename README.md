@@ -1,1 +1,1 @@
-[![Demo](Nexo-Data/Nexor-imagenes/Nexor-sin-fondo.png')](https://emiliano-hn.github.io/Nexor/)
+[![Demo](Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png')](https://emiliano-hn.github.io/Nexor/)
