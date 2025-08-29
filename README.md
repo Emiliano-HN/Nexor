@@ -9,7 +9,7 @@
 <table>
   <tr>
     <td>
-      <img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
+      <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
     </td>
   </tr>
 </table>
