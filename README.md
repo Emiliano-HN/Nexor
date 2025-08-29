@@ -23,7 +23,7 @@ Vek "¡Hola, mundo con Nexor!"
     </td>
     <td align="center">
       Nexor v1.9.2<br>
-      <a href="TU_LINK_DE_DESCARGA_V1.9.3">
+      <a href="https://github.com/user-attachments/files/22035918/Nexor-v1.9.2.zip">
         <img src="Nexor-Data/Nexor-imagenes/descarga.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
