@@ -46,6 +46,6 @@ Vek "¡Hola, mundo con Nexor!"
 
 <img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" 
      width="300" 
-     height="150" 
+     height="500" 
      style="border-radius:20px; object-fit: cover;" 
      alt="User Responsibility Agreement">
