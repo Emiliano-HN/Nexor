@@ -7,7 +7,7 @@
 </a>
 
 ```bash
-# MI primer programa con nexor
+# Mi primer programa con nexor
 Vek "¡Hola, mundo con Nexor!"
 ```
 
