@@ -9,3 +9,6 @@
 ```bash
 # MI primer programa con nexor
 Vek "¡Hola, mundo con Nexor!"
+```
+
+<h1 align="center">Versiones de Nexor no disponibles en la web:</h1>
