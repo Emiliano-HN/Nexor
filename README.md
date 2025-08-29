@@ -60,7 +60,7 @@ Vek "¡Hola, mundo con Nexor!"
       </a>
     </td>
     <td align="center">PDF<br>
-      <a href="">
+      <a href="https://github.com/user-attachments/files/22036574/PDF.zip">
         <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
