@@ -8,7 +8,7 @@
 
 <p align="left">Codigo QR:</p>
 <a href="https://emiliano-hn.github.io/Nexor/">
-  <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="150" alt="QR">
+  <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="125" alt="QR">
 </a>
 
 ```bash
