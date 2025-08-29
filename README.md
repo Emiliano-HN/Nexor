@@ -13,4 +13,6 @@ Vek "¡Hola, mundo con Nexor!"
 
 <h1 align="center">Versiones de Nexor no disponibles en la web:</h1>
 
-[![Descargar](imagenes/boton-descarga.png)](Nexor-Data/Nexor-archivos/descarga.zip)
+<a href="Nexor-Data/Nexor-version/Nexor-v1.1.0.7z" download>
+  <img src="Nexor-Data/Nexor-imagenes/descarga.png" width="200" height="60" alt="Descargar">
+</a>
