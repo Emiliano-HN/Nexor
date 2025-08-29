@@ -44,8 +44,10 @@ Vek "¡Hola, mundo con Nexor!"
 
 <h1 align="center">LICENSE</h1>
 
-<img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" 
-     width="450" 
-     height="800" 
-     style="border-radius:40px; object-fit: cover;" 
-     alt="User Responsibility Agreement">
+<table>
+  <tr>
+    <td>
+      <img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
+    </td>
+  </tr>
+</table>
