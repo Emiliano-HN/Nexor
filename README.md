@@ -1,27 +1,20 @@
 <h1 align="center">🟣 Nexor 🟣</h1>
 <p align="center">Diseñado para desarrolladores que buscan elegancia, velocidad y versatilidad en un solo lenguaje.</p>
 
-<p align="left">Pagina web:</p>
-<a href="https://emiliano-hn.github.io/Nexor/">
-  <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="100" alt="Pagina Web">
-</a>
-
-<p align="left">Codigo QR:</p>
-<a href="https://emiliano-hn.github.io/Nexor/">
-  <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="120" alt="QR">
-</a>
-
 <table>
   <tr>
-    <td align="center">PNG<br>
+    <td align="center">Pagina Web:<br>
       <a href="https://github.com/user-attachments/files/22036534/PNG.zip" download>
+        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
+      </a>
+    </td>
+    <td align="center">Codigo QR:<br>
+      <a href="https://github.com/user-attachments/files/22036574/PDF.zip">
         <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
   </tr>
 </table>
-
-<p></p>
 
 ```bash
 # Mi primer programa con nexor
@@ -74,12 +67,12 @@ Vek "¡Hola, mundo con Nexor!"
   <tr>
     <td align="center">PNG<br>
       <a href="https://github.com/user-attachments/files/22036534/PNG.zip" download>
-        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
+        <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
     <td align="center">PDF<br>
       <a href="https://github.com/user-attachments/files/22036574/PDF.zip">
-        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
+        <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
   </tr>
