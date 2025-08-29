@@ -56,8 +56,7 @@ Vek "¡Hola, mundo con Nexor!"
   <tr>
     <td align="center">
       PNG<br>
-      <a href="https://private-user-images.githubusercontent.com/206290537/483426174-eaa5f340-9f22-46f7-93b2-e434c3d3a3c2.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTY0MzU2MjQsIm5iZiI6MTc1NjQzNTMyNCwicGF0aCI6Ii8yMDYyOTA1MzcvNDgzNDI2MTc0LWVhYTVmMzQwLTlmMjItNDZmNy05M2IyLWU0MzRjM2QzYTNjMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODI5JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgyOVQwMjQyMDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hM2U1MzZmMmRkN2JlNGZjMTdmNWZiNGVkNTI5NGY5MDlkN2ZmNmZhOWU3ZDQ5OGQ3Zjc2YzNhOTVmNzdhZjU5JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.gHmLQNQI8VUdlY4UsRkA98r3T3VWCRaoHN6PxKisM-0" download>
-        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
+      <a href="https://github.com/user-attachments/files/22036534/PNG.zip" width="50" height="50" alt="Descargar">
       </a>
     </td>
     <td align="center">
