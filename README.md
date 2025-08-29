@@ -41,3 +41,5 @@ Vek "¡Hola, mundo con Nexor!"
     </td>
   </tr>
 </table>
+
+<h1 align="center">LICENSE</h1>
