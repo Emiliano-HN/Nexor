@@ -57,13 +57,13 @@ Vek "¡Hola, mundo con Nexor!"
     <td align="center">
       PNG<br>
       <a href="" download>
-        <img src="Nexor-Data/Nexor-imagenes/descarga'morado.png" width="50" height="50" alt="Descargar">
+        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
     <td align="center">
       PDF<br>
       <a href="">
-        <img src="Nexor-Data/Nexor-imagenes/descarga'morado.png" width="50" height="50" alt="Descargar">
+        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
   </tr>
