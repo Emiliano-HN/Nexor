@@ -19,6 +19,6 @@ Vek "¡Hola, mundo con Nexor!"
 </a>
 
 <p align="left">Nexor v1.9.3</p>
-<a href="https://github.com/Emiliano-HN/Nexor/releases/download/v1.1.0/Nexor%20v1.1.0.zip">
-  <img src="Nexor-Data/Nexor-imagenes/boton-descarga.png" width="200" height="60" style="border-radius:12px;" alt="Descargar">
+<a href="">
+  <img src="Nexor-Data/Nexor-imagenes/descarga.png" width="200" height="60" style="border-radius:12px;" alt="Descargar">
 </a>
