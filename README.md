@@ -5,7 +5,7 @@
   <tr>
     <td align="center">Pagina Web:<br>
       <a href="https://github.com/user-attachments/files/22036534/PNG.zip" download>
-        <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="50" height="50" alt="Descargar">
+        <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="60" height="60" alt="Descargar">
       </a>
     </td>
     <td align="center">Codigo QR:<br>
