@@ -12,3 +12,5 @@ Vek "¡Hola, mundo con Nexor!"
 ```
 
 <h1 align="center">Versiones de Nexor no disponibles en la web:</h1>
+
+[Nexor v1.1.0](https://img.shields.io/badge/GitHub-Visitar-blue?style=for-the-badge&logo=github)](https://emiliano-hn.github.io/Nexor/)
