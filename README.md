@@ -7,13 +7,9 @@
 </a>
 
 <p align="left">Codigo QR:</p>
-<table>
-  <tr>
-    <td>
-      <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="100" height="100" style="border-radius:50%;" alt="QR">
-    </td>
-  </tr>
-</table>
+<a href="https://emiliano-hn.github.io/Nexor/">
+  <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="100" alt="Pagina Web">
+</a>
 
 ```bash
 # Mi primer programa con nexor
