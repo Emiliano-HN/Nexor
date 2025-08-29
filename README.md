@@ -11,9 +11,14 @@
 Vek "¡Hola, mundo con Nexor!"
 ```
 
-<h1 align="center">Versiones de Nexor no disponibles en la web:</h1>
+<h1 align="center">Todas las versiones de Nexor:</h1>
 
 <p align="left">Nexor v1.1.0</p>
 <a href="https://github.com/user-attachments/files/22035692/Nexor.v1.1.0.zip" download>
   <img src="Nexor-Data/Nexor-imagenes/descarga.png" width="50" height="50" alt="Descargar">
+</a>
+
+<p align="left">Nexor v1.9.3</p>
+<a href="https://github.com/Emiliano-HN/Nexor/releases/download/v1.1.0/Nexor%20v1.1.0.zip">
+  <img src="Nexor-Data/Nexor-imagenes/boton-descarga.png" width="200" height="60" style="border-radius:12px;" alt="Descargar">
 </a>
