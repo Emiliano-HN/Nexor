@@ -52,12 +52,19 @@ Vek "¡Hola, mundo con Nexor!"
   </tr>
 </table>
 
-<p align="left">Descarga imagen en PNG:</p>
-<a href="https://github.com/Emiliano-HN/Nexor/releases/download/v1.1.0/Nexor%20v1.1.0.zip">
-  <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" style="border-radius:12px;" alt="Descargar">
-</a>
-
-<p align="left">Descarga imagen en PDF:</p>
-<a href="https://github.com/Emiliano-HN/Nexor/releases/download/v1.1.0/Nexor%20v1.1.0.zip">
-  <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" style="border-radius:12px;" alt="Descargar">
-</a>
+<table>
+  <tr>
+    <td align="center">
+      PNG<br>
+      <a href="" download>
+        <img src="Nexor-Data/Nexor-imagenes/descarga'morado.png" width="50" height="50" alt="Descargar">
+      </a>
+    </td>
+    <td align="center">
+      PDF<br>
+      <a href="">
+        <img src="Nexor-Data/Nexor-imagenes/descarga'morado.png" width="50" height="50" alt="Descargar">
+      </a>
+    </td>
+  </tr>
+</table>
