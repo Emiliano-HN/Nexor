@@ -6,6 +6,14 @@
   <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="100" alt="Pagina Web">
 </a>
 
+<table>
+  <tr>
+    <td>
+      <img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
+    </td>
+  </tr>
+</table>
+
 ```bash
 # Mi primer programa con nexor
 Vek "¡Hola, mundo con Nexor!"
