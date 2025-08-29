@@ -6,10 +6,11 @@
   <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="100" alt="Pagina Web">
 </a>
 
+<p align="left">Codigo QR:</p>
 <table>
   <tr>
     <td>
-      <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
+      <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="100" height="100" style="border-radius:50%;" alt="QR">
     </td>
   </tr>
 </table>
