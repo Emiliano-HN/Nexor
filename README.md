@@ -52,6 +52,7 @@ Vek "¡Hola, mundo con Nexor!"
   </tr>
 </table>
 
+<p align="left">Descarga Documento:</p>
 <table>
   <tr>
     <td align="center">PNG<br>
