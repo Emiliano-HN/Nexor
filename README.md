@@ -54,16 +54,16 @@ Vek "¡Hola, mundo con Nexor!"
 
 <table>
   <tr>
-    <td align="center">
-      PNG<br>
-      <a href="https://github.com/user-attachments/files/22036534/PNG.zip" width="50" height="50" alt="Descargar">
+    <td align="center">PNG<br>
+      <a href="p" download>
+        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
-    <td align="center">
-      PDF<br>
+    <td align="center">PDF<br>
       <a href="">
         <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
       </a>
     </td>
   </tr>
 </table>
+
