@@ -9,7 +9,7 @@
       </a>
     </td>
     <td align="center">Codigo QR:<br>
-      <a href="https://github.com/user-attachments/files/22036574/PDF.zip">
+      <a href="">
         <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="60" height="60" alt="Descargar">
       </a>
     </td>
