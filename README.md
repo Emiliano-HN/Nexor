@@ -12,7 +12,7 @@
 <div align="center" style="margin-top:20px;">
   <p>Descarga el proyecto haciendo click en la imagen:</p>
   <a href="https://github.com/user-attachments/files/22061570/Nexor.QR.zip">
-    <img src="Nexor-Data/Nexor-imagenes/tu-imagen.png" width="150" alt="Descargar proyecto">
+    <img src="Nexor-Data/Nexor-imagenes/QR-logo.png" width="150" alt="Descargar proyecto">
   </a>
 </div>
 
