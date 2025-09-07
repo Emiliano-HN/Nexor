@@ -85,20 +85,15 @@ escaneo_total()
 
 <p align="left">Download Document: </p>
 
-<table>
-  <tr>
-    <td align="center">PNG<br>
-      <a href="https://github.com/user-attachments/files/22036534/PNG.zip" download>
-        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
-      </a>
-    </td>
-    <td align="center">PDF<br>
-      <a href="https://github.com/user-attachments/files/22036574/PDF.zip">
-        <img src="Nexor-Data/Nexor-imagenes/descarga-morado.png" width="50" height="50" alt="Descargar">
-      </a>
-    </td>
-  </tr>
-</table>
+<p>
+<a href="https://github.com/user-attachments/files/22036534/PNG.zip">
+  <img src="Nexor-Data/Nexor-imagenes/PNG.png" alt="PNG" width="65" style="margin-top:-10px;" />
+</a>
+<a href="https://github.com/user-attachments/files/22036574/PDF.zip">
+  <img src="Nexor-Data/Nexor-imagenes/PDF.png" alt="PDF" width="65" style="margin-top:-10px;" />
+</a>     
+</p>
+
 <div align="center">
    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&section=footer" />
 </div>
