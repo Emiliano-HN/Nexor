@@ -1,12 +1,10 @@
 <!-- README.md de Nexor Oficial -->
 
 <div align="center">
-   <img width=100% src=https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true />
+   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
+   <img src="Nexor-Data/Nexor-imagenes/Nexor-logo.png" alt="Captura" width="400" />
 </div>
 
-<div align="center">
-  <img src="Nexor-Data/Nexor-imagenes/Nexor-logo.png" alt="Captura" width="400" />
-</div>
 
 <p align="center">Diseñado para desarrolladores que buscan elegancia, velocidad y versatilidad en un solo lenguaje.</p>
 
