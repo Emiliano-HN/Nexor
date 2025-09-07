@@ -1,13 +1,8 @@
 <!-- README.md de Nexor Oficial -->
 
-<div style="position: relative; width: 100%; text-align: center;">
-
-  <!-- Ola de fondo -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" style="width: 100%; display: block;" />
-
-  <!-- Logo encima -->
-  <img src="Nexor-Data/Nexor-imagenes/Nexor-logo.png" alt="Logo" style="width: 400px; position: absolute; top: -50px; left: 50%; transform: translateX(-50%);" />
-
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
+  <img src="Nexor-Data/Nexor-imagenes/Nexor-logo.png" alt="Logo" width="400" style="margin-top:-10px;" />
 </div>
 
 <p align="center">Diseñado para desarrolladores que buscan elegancia, velocidad y versatilidad en un solo lenguaje.</p>
