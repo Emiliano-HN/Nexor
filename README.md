@@ -2,7 +2,10 @@
 
 <div align="center">
    <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
-   <img src="Nexor-Data/Nexor-imagenes/Nexor-logo.png" alt="Captura" width="400" />
+</div>
+
+<div align="center" style="margin-top:-20px;">
+  <img src="Nexor-Data/Nexor-imagenes/Nexor-logo.png" alt="Captura" width="400" />
 </div>
 
 
