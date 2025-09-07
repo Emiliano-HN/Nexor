@@ -7,9 +7,7 @@
 </a>
 </div>
 
-<p align="center" style="font-family: 'Comic Sans MS', cursive, sans-serif; font-size:20px;">
-  Diseñado para desarrolladores que buscan elegancia, velocidad y versatilidad en un solo lenguaje.
-</p>
+<p align="center">𝓓𝓲𝓼𝓮ñ𝓪𝓭𝓸 𝓹𝓪𝓻𝓪 𝓭𝓮𝓼𝓪𝓻𝓻𝓸𝓵𝓵𝓪𝓭𝓸𝓻𝓮𝓼 𝓺𝓾𝓮 𝓫𝓾𝓼𝓬𝓪𝓷 𝓮𝓵𝓮𝓰𝓪𝓷𝓬𝓲𝓪</p>
 
 <table>
   <tr>
