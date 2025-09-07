@@ -17,8 +17,35 @@
 </div>
 
 ```bash
-# Mi primer programa con nexor
-Vek "¡Hola, mundo con Nexor!"
+# Estaneo en Nexor v.3.0.2
+ble hosts = ["192.168.1.1", "192.168.1.2", "192.168.1.3"]
+ble puertos = [22, 80, 443, 8080]
+ble resultados = []
+
+fun probar(host, puerto)
+    dic (host + ":" + str(puerto)) not in resultados
+        ble status = "cerrado"
+        dic puerto % 2 == 0
+            status = "abierto"
+        nal
+        resultados.append(host + ":" + str(puerto) + " → " + status)
+    nuf
+nuf
+
+fun escaneo_total()
+    rp len(hosts)
+        ble host = hosts[contador-1]
+        rp len(puertos)
+            ble puerto = puertos[contador-1]
+            probar(host, puerto)
+        nuf
+    nuf
+    rp len(resultados)
+        Vek resultados[contador-1]
+    nuf
+nuf
+
+escaneo_total()
 ```
 
 <h1 align="center">Todas las versiones de Nexor:</h1>
