@@ -16,7 +16,6 @@
   </a>
 </div>
 
-<!-- Separación entre QR y código -->
 <div style="height:30px;"> </div>
 
 ```bash
@@ -59,7 +58,7 @@ escaneo_total()
 
 ```
 
-<h1 align="center">Todas las versiones de Nexor:</h1>
+<h1 align="center">Versiones de Nexor:</h1>
 
 <table>
   <tr>
