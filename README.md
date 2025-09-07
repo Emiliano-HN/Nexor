@@ -48,10 +48,10 @@ fun escaneo_total()
     Vek "Resultados del escaneo:"
     rp len(resultados)
         ble linea = resultados[contador-1]
-        dic "" in linea
-            Vek "✅ " + linea
+        dic "•" in linea
+            Vek "✓" + linea
         nal
-            Vek "❌ " + linea
+            Vek "✗" + linea
     nuf
 nuf
 
