@@ -19,7 +19,7 @@
 <div style="height:30px;"> </div>
 
 ```bash
-# Estaneo en Nexor v.3.0.2 Demo
+# Estaneo en Nexor v3.0.2 Demo
 
 ble hosts = ["192.168.1.1", "192.168.1.2", "192.168.1.3"]
 ble puertos = [22, 80, 443, 8080]
