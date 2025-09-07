@@ -21,12 +21,13 @@
 
 ```bash
 # Estaneo en Nexor v.3.0.2 Demo
+# Demo Nexor v3.0.2: Escaneo rápido y visual
 ble hosts = ["192.168.1.1", "192.168.1.2", "192.168.1.3"]
 ble puertos = [22, 80, 443, 8080]
 ble resultados = []
 
 fun probar(host, puerto)
-    dic (host + ":" + str(puerto)) not in resultados
+    dic host + ":" + str(puerto) not in resultados
         ble status = "cerrado"
         dic puerto % 2 == 0
             status = "abierto"
@@ -43,12 +44,19 @@ fun escaneo_total()
             probar(host, puerto)
         nuf
     nuf
+    
+    Vek "Resultados del escaneo:"
     rp len(resultados)
-        Vek resultados[contador-1]
+        ble linea = resultados[contador-1]
+        dic "abierto" in linea
+            Vek linea
+        nal
+            Vek linea
     nuf
 nuf
 
 escaneo_total()
+
 ```
 
 <h1 align="center">Todas las versiones de Nexor:</h1>
