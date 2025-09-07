@@ -1,7 +1,8 @@
 <div align="center">
    <img width=100% src=https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true />
 </div>
-<h1 align="center">🟣 Nexor 🟣</h1>
+<img src="imagenes/captura.png" alt="Captura" width="400" />
+
 <p align="center">Diseñado para desarrolladores que buscan elegancia, velocidad y versatilidad en un solo lenguaje.</p>
 
 <table>
