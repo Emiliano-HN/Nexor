@@ -2,18 +2,15 @@
 
 <div align="center">
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&color=gradient&reversal=true" />
+<a href="https://emiliano-hn.github.io/Nexor/">
   <img src="Nexor-Data/Nexor-imagenes/Nexor-logo-oficial.png" alt="Logo" width="400" style="margin-top:-10px;" />
+</a>
 </div>
 
 <p align="center">Diseñado para desarrolladores que buscan elegancia, velocidad y versatilidad en un solo lenguaje.</p>
 
 <table>
   <tr>
-    <td align="center">Pagina Web:<br>
-      <a href="https://emiliano-hn.github.io/Nexor/" download>
-        <img src="Nexor-Data/Nexor-imagenes/Nexor-sin-fondo.png" width="60" height="60" alt="Descargar">
-      </a>
-    </td>
     <td align="center">Codigo QR:<br>
       <a href="https://github.com/user-attachments/files/22061570/Nexor.QR.zip">
         <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="60" height="60" alt="Descargar">
