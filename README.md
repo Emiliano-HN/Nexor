@@ -62,7 +62,7 @@ escaneo_total()
 
 <p>
 <a href="https://github.com/user-attachments/files/22035692/Nexor.v1.1.0.zip">
-  <img src="Nexor-Data/Nexor-imagenes/1.1.0.png" alt="1.1.0" width="50" style="margin-top:-10px;" />
+  <img src="Nexor-Data/Nexor-imagenes/1.1.0.png" alt="1.1.0" width="75" style="margin-top:-10px;" />
 </a>
   
 </p>
