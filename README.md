@@ -62,19 +62,19 @@ escaneo_total()
 
 <p>
 <a href="https://github.com/user-attachments/files/22035692/Nexor.v1.1.0.zip">
-  <img src="Nexor-Data/Nexor-imagenes/1.1.0.png" alt="1.1.0" width="75" style="margin-top:-10px;" />
+  <img src="Nexor-Data/Nexor-imagenes/1.1.0.png" alt="1.1.0" width="65" style="margin-top:-10px;" />
 </a>
 <a href="https://github.com/user-attachments/files/22035918/Nexor-v1.9.2.zip">
-  <img src="Nexor-Data/Nexor-imagenes/1.9.2.png" alt="1.9.2" width="75" style="margin-top:-10px;" />
+  <img src="Nexor-Data/Nexor-imagenes/1.9.2.png" alt="1.9.2" width="65" style="margin-top:-10px;" />
 </a>  
 <a href="https://github.com/user-attachments/files/22035929/Nexor-v2.9.3.zip">
-  <img src="Nexor-Data/Nexor-imagenes/2.9.3.png" alt="2.9.3" width="75" style="margin-top:-10px;" />
+  <img src="Nexor-Data/Nexor-imagenes/2.9.3.png" alt="2.9.3" width="65" style="margin-top:-10px;" />
 </a> 
 <a href="https://github.com/user-attachments/files/22035939/Nexor-v2.9.4.zip">
-  <img src="Nexor-Data/Nexor-imagenes/2.9.4.png" alt="2.9.4" width="75" style="margin-top:-10px;" />
+  <img src="Nexor-Data/Nexor-imagenes/2.9.4.png" alt="2.9.4" width="65" style="margin-top:-10px;" />
 </a> 
 <a href="">
-  <img src="Nexor-Data/Nexor-imagenes/3.0.2.png" alt="3.0.2" width="75" style="margin-top:-10px;" />
+  <img src="Nexor-Data/Nexor-imagenes/3.0.2.png" alt="3.0.2" width="65" style="margin-top:-10px;" />
 </a>   
 </p>
 
