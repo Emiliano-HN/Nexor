@@ -7,19 +7,19 @@
 </a>
 </div>
 
-<p align="center" >𝓓𝓲𝓼𝓮ñ𝓪𝓭𝓸 𝓹𝓪𝓻𝓪 𝓭𝓮𝓼𝓪𝓻𝓻𝓸𝓵𝓵𝓪𝓭𝓸𝓻𝓮𝓼 𝓺𝓾𝓮 𝓫𝓾𝓼𝓬𝓪𝓷 𝓮𝓵𝓮𝓰𝓪𝓷𝓬𝓲𝓪</p>
+<p align="center" >𝓓𝓮𝓼𝓲𝓰𝓷𝓮𝓭 𝓯𝓸𝓻 𝓭𝓮𝓿𝓮𝓵𝓸𝓹𝓮𝓻𝓼 𝔀𝓱𝓸 𝓼𝓮𝓮𝓴 𝓮𝓵𝓮𝓰𝓪𝓷𝓬𝓮</p>
 
 <div style="margin-top:40px;">
-  <p>Herramientas de QR:</p>
+  <p>QR Tools: </p>
   <a href="https://github.com/user-attachments/files/22061570/Nexor.QR.zip">
-    <img src="Nexor-Data/Nexor-imagenes/QR-logo.png" width="150" alt="Descargar proyecto">
+    <img src="Nexor-Data/Nexor-imagenes/QR-logo.png" width="150" alt="QR code">
   </a>
 </div>
 
 <div style="height:30px;"> </div>
 
 ```bash
-# Estaneo en Nexor v3.0.2 Demo
+# Scanning in Nexor v3.0.2 Demo
 
 ble hosts = ["192.168.1.1", "192.168.1.2", "192.168.1.3"]
 ble puertos = [22, 80, 443, 8080]
@@ -27,9 +27,9 @@ ble resultados = []
 
 fun probar(host, puerto)
     dic (host + ":" + str(puerto)) not in resultados
-        ble status = "Cerrado"
+        ble status = "Closed"
         dic puerto % 2 == 0
-            status = "Abierto"
+            status = "Open"
         nal
         resultados.append(host + ":" + str(puerto) + " → " + status)
     nuf
@@ -44,7 +44,7 @@ fun escaneo_total()
         nuf
     nuf
 
-    Vek "Resultados del escaneo:"
+    Vek "Scan results:"
     rp len(resultados)
         ble linea = resultados[contador-1]
         dic "•" in linea
@@ -55,12 +55,11 @@ fun escaneo_total()
 nuf
 
 escaneo_total()
-
 ```
 
-<h1 align="center">Versiones de Nexor:</h1>
+<h1 align="center">Nexor versions:</h1>
 
-<p>Recuerda que no todas las versiones son definitivas; algunas pueden estar en fase de prueba, incompletas o contener errores.</p>
+<p>Remember that not all versions are final; some may be in testing, incomplete, or contain errors.</p>
 
 <p>
 <a href="https://github.com/user-attachments/files/22035692/Nexor.v1.1.0.zip">
@@ -84,7 +83,7 @@ escaneo_total()
 
 <img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
 
-<p align="left">Descarga Documento:</p>
+<p align="left">Download Document: </p>
 
 <table>
   <tr>
