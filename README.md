@@ -60,6 +60,8 @@ escaneo_total()
 
 <h1 align="center">Versiones de Nexor:</h1>
 
+<p>Recuerda que no todas las versiones son definitivas; algunas pueden estar en fase de prueba, incompletas o contener errores.</p>
+
 <p>
 <a href="https://github.com/user-attachments/files/22035692/Nexor.v1.1.0.zip">
   <img src="Nexor-Data/Nexor-imagenes/1.1.0.png" alt="1.1.0" width="65" style="margin-top:-10px;" />
@@ -80,15 +82,10 @@ escaneo_total()
 
 <h1 align="center">LICENSE</h1>
 
-<table>
-  <tr>
-    <td>
-      <img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
-    </td>
-  </tr>
-</table>
+<img src="Nexor-Data/Nexor-imagenes/User Responsibility Agreement.png" width="450" height="800" style="border-radius:50%;" alt="Nexor Logo">
 
 <p align="left">Descarga Documento:</p>
+
 <table>
   <tr>
     <td align="center">PNG<br>
