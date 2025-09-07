@@ -60,6 +60,10 @@ escaneo_total()
 
 <h1 align="center">Versiones de Nexor:</h1>
 
+<a href="https://github.com/user-attachments/files/22035692/Nexor.v1.1.0.zip">
+  <img src="Nexor-Data/Nexor-imagenes/" alt="Logo" width="400" style="margin-top:-10px;" />
+</a>
+
 <table>
   <tr>
     <td align="center">
